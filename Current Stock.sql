@@ -1,5 +1,3 @@
-
-
 SELECT	w.Id [WarehousID],
 	    w.Name [Warehouse],
         PV.Id [PVID],
@@ -18,8 +16,6 @@ GROUP BY w.Id,
          PV.Id,
 		 PV.Name,
 		 cws.RequiredStock 
-
-
 
 
 SELECT	w.Id [WarehousID],
